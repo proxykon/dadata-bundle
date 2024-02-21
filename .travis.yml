@@ -1,0 +1,40 @@
+language: php
+
+php:
+  - '7.2'
+  - '7.3'
+  - '7.4'
+  - '8.0'
+
+env:
+  - SYMFONY_VERSION=4.4.*
+  - SYMFONY_VERSION=5.4.*
+
+matrix:
+  include:
+    - php: 8.0
+      env: SYMFONY_VERSION=6.0.*
+
+cache:
+  directories:
+    - ~/.composer/cache/files
+
+install:
+  - composer require symfony/config:${SYMFONY_VERSION} --no-update --no-scripts --prefer-dist
+  - composer require symfony/dependency-injection:${SYMFONY_VERSION} --no-update --no-scripts --prefer-dist
+  - composer require symfony/http-client:${SYMFONY_VERSION} --no-update --no-scripts --prefer-dist
+  - composer require symfony/http-kernel:${SYMFONY_VERSION} --no-update --no-scripts --prefer-dist
+  - composer require symfony/yaml:${SYMFONY_VERSION} --no-update --no-scripts --prefer-dist
+
+  - composer require --dev symfony/phpunit-bridge:${SYMFONY_VERSION} --no-update --no-scripts --prefer-dist
+
+  - composer update --prefer-dist
+
+  - vendor/bin/simple-phpunit install
+
+script:
+  - composer check
+  - composer validate --strict --no-check-lock
+  - vendor/bin/php-cs-fixer fix -v --dry-run
+  - vendor/bin/phpstan analyse
+  - vendor/bin/simple-phpunit $PHPUNIT_FLAGS
