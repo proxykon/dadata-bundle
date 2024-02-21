@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle;
+namespace Proxykon\DadataBundle;
 
-use Velhron\DadataBundle\Exception\InvalidConfigException;
+use Proxykon\DadataBundle\Exception\InvalidConfigException;
 
 class Resolver
 {

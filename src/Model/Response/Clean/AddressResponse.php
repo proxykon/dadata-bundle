@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Model\Response\Clean;
+namespace Proxykon\DadataBundle\Model\Response\Clean;
 
-use Velhron\DadataBundle\Traits\Address;
+use Proxykon\DadataBundle\Traits\Address;
 
 class AddressResponse extends CleanResponse
 {

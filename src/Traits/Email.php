@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Traits;
+namespace Proxykon\DadataBundle\Traits;
 
 trait Email
 {

@@ -2,32 +2,32 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Service;
+namespace Proxykon\DadataBundle\Service;
 
 use Symfony\Contracts\HttpClient\Exception\ExceptionInterface;
-use Velhron\DadataBundle\Exception\DadataException;
-use Velhron\DadataBundle\Exception\InvalidConfigException;
-use Velhron\DadataBundle\Model\Request\AbstractRequest;
-use Velhron\DadataBundle\Model\Request\Suggest\SuggestRequest;
-use Velhron\DadataBundle\Model\Response\Find\AffiliatedPartyResponse;
-use Velhron\DadataBundle\Model\Response\Find\DeliveryResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\AddressResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\BankResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\CarBrandResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\CountryResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\CurrencyResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\EmailResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\FioResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\FmsUnitResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\FnsUnitResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\FtsUnitResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\MetroResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\Okpd2Response;
-use Velhron\DadataBundle\Model\Response\Suggest\OktmoResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\Okved2Response;
-use Velhron\DadataBundle\Model\Response\Suggest\PartyResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\PostalUnitResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\RegionCourtResponse;
+use Proxykon\DadataBundle\Exception\DadataException;
+use Proxykon\DadataBundle\Exception\InvalidConfigException;
+use Proxykon\DadataBundle\Model\Request\AbstractRequest;
+use Proxykon\DadataBundle\Model\Request\Suggest\SuggestRequest;
+use Proxykon\DadataBundle\Model\Response\Find\AffiliatedPartyResponse;
+use Proxykon\DadataBundle\Model\Response\Find\DeliveryResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\AddressResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\BankResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\CarBrandResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\CountryResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\CurrencyResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\EmailResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\FioResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\FmsUnitResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\FnsUnitResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\FtsUnitResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\MetroResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\Okpd2Response;
+use Proxykon\DadataBundle\Model\Response\Suggest\OktmoResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\Okved2Response;
+use Proxykon\DadataBundle\Model\Response\Suggest\PartyResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\PostalUnitResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\RegionCourtResponse;
 
 class DadataSuggest extends AbstractService
 {

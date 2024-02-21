@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Model\Response\Clean;
+namespace Proxykon\DadataBundle\Model\Response\Clean;
 
-use Velhron\DadataBundle\Model\Response\AbstractResponse;
+use Proxykon\DadataBundle\Model\Response\AbstractResponse;
 
 abstract class CleanResponse extends AbstractResponse
 {

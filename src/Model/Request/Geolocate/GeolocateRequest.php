@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Model\Request\Geolocate;
+namespace Proxykon\DadataBundle\Model\Request\Geolocate;
 
-use Velhron\DadataBundle\Model\Request\Suggest\SuggestRequest;
+use Proxykon\DadataBundle\Model\Request\Suggest\SuggestRequest;
 
 abstract class GeolocateRequest extends SuggestRequest
 {

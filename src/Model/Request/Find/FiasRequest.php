@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Model\Request\Find;
+namespace Proxykon\DadataBundle\Model\Request\Find;
 
 class FiasRequest extends FindRequest
 {

@@ -1,13 +1,13 @@
 {
-    "name": "velhron/dadata-bundle",
+    "name": "proxykon/dadata-bundle",
     "description": "DaData for Symfony",
-    "keywords": ["dadata", "symfony-bundle", "symfony-dadata"],
+    "keywords": ["dadata", "symfony-bundle", "symfony-dadata", "proxykon"],
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Velhron",
-            "email": "velhron@gmail.com"
+            "name": "Dmitriy Melnikov",
+            "email": "info@suitetech.dev"
         }
     ],
     "require": {
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Velhron\\DadataBundle\\": "src/"
+            "Proxykon\\DadataBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Velhron\\DadataBundle\\Tests\\": "tests"
+            "Proxykon\\DadataBundle\\Tests\\": "tests"
         }
     }
 }

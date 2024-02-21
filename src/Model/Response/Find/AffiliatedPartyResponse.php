@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Model\Response\Find;
+namespace Proxykon\DadataBundle\Model\Response\Find;
 
-use Velhron\DadataBundle\Model\Response\Suggest\AddressResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\SuggestResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\AddressResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\SuggestResponse;
 
 class AffiliatedPartyResponse extends SuggestResponse
 {

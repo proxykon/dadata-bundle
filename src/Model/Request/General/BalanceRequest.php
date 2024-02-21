@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Model\Request\General;
+namespace Proxykon\DadataBundle\Model\Request\General;
 
 class BalanceRequest extends GeneralRequest
 {

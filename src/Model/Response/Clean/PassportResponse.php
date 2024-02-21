@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Model\Response\Clean;
+namespace Proxykon\DadataBundle\Model\Response\Clean;
 
 class PassportResponse extends CleanResponse
 {

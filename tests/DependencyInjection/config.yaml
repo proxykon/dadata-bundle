@@ -1,4 +1,4 @@
-velhron_dadata:
+proxykon_dadata:
   token: 'token'
   secret: 'secret'
   base_general_url: 'https://example.com/general'

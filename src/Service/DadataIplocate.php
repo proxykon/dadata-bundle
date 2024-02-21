@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Service;
+namespace Proxykon\DadataBundle\Service;
 
 use Symfony\Contracts\HttpClient\Exception\ExceptionInterface;
-use Velhron\DadataBundle\Exception\DadataException;
-use Velhron\DadataBundle\Exception\InvalidConfigException;
-use Velhron\DadataBundle\Model\Request\AbstractRequest;
-use Velhron\DadataBundle\Model\Request\Iplocate\AddressRequest;
-use Velhron\DadataBundle\Model\Response\AbstractResponse;
-use Velhron\DadataBundle\Model\Response\Suggest\AddressResponse;
+use Proxykon\DadataBundle\Exception\DadataException;
+use Proxykon\DadataBundle\Exception\InvalidConfigException;
+use Proxykon\DadataBundle\Model\Request\AbstractRequest;
+use Proxykon\DadataBundle\Model\Request\Iplocate\AddressRequest;
+use Proxykon\DadataBundle\Model\Response\AbstractResponse;
+use Proxykon\DadataBundle\Model\Response\Suggest\AddressResponse;
 
 class DadataIplocate extends AbstractService
 {

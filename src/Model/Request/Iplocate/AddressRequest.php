@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Model\Request\Iplocate;
+namespace Proxykon\DadataBundle\Model\Request\Iplocate;
 
-use Velhron\DadataBundle\Model\Request\AbstractRequest;
-use Velhron\DadataBundle\Model\Request\Suggest\SuggestRequest;
+use Proxykon\DadataBundle\Model\Request\AbstractRequest;
+use Proxykon\DadataBundle\Model\Request\Suggest\SuggestRequest;
 
 class AddressRequest extends SuggestRequest
 {

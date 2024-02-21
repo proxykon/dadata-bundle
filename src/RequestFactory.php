@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle;
+namespace Proxykon\DadataBundle;
 
-use Velhron\DadataBundle\Exception\InvalidConfigException;
-use Velhron\DadataBundle\Model\Request\AbstractRequest;
+use Proxykon\DadataBundle\Exception\InvalidConfigException;
+use Proxykon\DadataBundle\Model\Request\AbstractRequest;
 
 class RequestFactory
 {

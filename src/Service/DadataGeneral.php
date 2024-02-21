@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Service;
+namespace Proxykon\DadataBundle\Service;
 
 use Symfony\Contracts\HttpClient\Exception\ExceptionInterface;
-use Velhron\DadataBundle\Exception\DadataException;
-use Velhron\DadataBundle\Exception\InvalidConfigException;
-use Velhron\DadataBundle\Model\Request\AbstractRequest;
-use Velhron\DadataBundle\Model\Request\General\StatRequest;
-use Velhron\DadataBundle\Model\Response\General\StatResponse;
+use Proxykon\DadataBundle\Exception\DadataException;
+use Proxykon\DadataBundle\Exception\InvalidConfigException;
+use Proxykon\DadataBundle\Model\Request\AbstractRequest;
+use Proxykon\DadataBundle\Model\Request\General\StatRequest;
+use Proxykon\DadataBundle\Model\Response\General\StatResponse;
 
 class DadataGeneral extends AbstractService
 {

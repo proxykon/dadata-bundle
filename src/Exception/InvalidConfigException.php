@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Exception;
+namespace Proxykon\DadataBundle\Exception;
 
 use Exception;
 

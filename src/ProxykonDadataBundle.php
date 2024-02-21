@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle;
+namespace Proxykon\DadataBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class VelhronDadataBundle extends Bundle
+class ProxykonDadataBundle extends Bundle
 {
 }

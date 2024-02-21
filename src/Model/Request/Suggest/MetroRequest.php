@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Model\Request\Suggest;
+namespace Proxykon\DadataBundle\Model\Request\Suggest;
 
 class MetroRequest extends SuggestRequest
 {

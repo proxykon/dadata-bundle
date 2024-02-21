@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Model\Response\Suggest;
+namespace Proxykon\DadataBundle\Model\Response\Suggest;
 
-use Velhron\DadataBundle\Traits\Email;
+use Proxykon\DadataBundle\Traits\Email;
 
 class EmailResponse extends SuggestResponse
 {

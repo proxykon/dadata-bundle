@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Service;
+namespace Proxykon\DadataBundle\Service;
 
 use Symfony\Contracts\HttpClient\Exception\ExceptionInterface;
-use Velhron\DadataBundle\Exception\DadataException;
-use Velhron\DadataBundle\Exception\InvalidConfigException;
-use Velhron\DadataBundle\Model\Request\AbstractRequest;
-use Velhron\DadataBundle\Model\Request\Clean\CleanRequest;
-use Velhron\DadataBundle\Model\Response\AbstractResponse;
-use Velhron\DadataBundle\Model\Response\Clean\AddressResponse;
-use Velhron\DadataBundle\Model\Response\Clean\BirthdateResponse;
-use Velhron\DadataBundle\Model\Response\Clean\EmailResponse;
-use Velhron\DadataBundle\Model\Response\Clean\NameResponse;
-use Velhron\DadataBundle\Model\Response\Clean\PassportResponse;
-use Velhron\DadataBundle\Model\Response\Clean\PhoneResponse;
-use Velhron\DadataBundle\Model\Response\Clean\VehicleResponse;
+use Proxykon\DadataBundle\Exception\DadataException;
+use Proxykon\DadataBundle\Exception\InvalidConfigException;
+use Proxykon\DadataBundle\Model\Request\AbstractRequest;
+use Proxykon\DadataBundle\Model\Request\Clean\CleanRequest;
+use Proxykon\DadataBundle\Model\Response\AbstractResponse;
+use Proxykon\DadataBundle\Model\Response\Clean\AddressResponse;
+use Proxykon\DadataBundle\Model\Response\Clean\BirthdateResponse;
+use Proxykon\DadataBundle\Model\Response\Clean\EmailResponse;
+use Proxykon\DadataBundle\Model\Response\Clean\NameResponse;
+use Proxykon\DadataBundle\Model\Response\Clean\PassportResponse;
+use Proxykon\DadataBundle\Model\Response\Clean\PhoneResponse;
+use Proxykon\DadataBundle\Model\Response\Clean\VehicleResponse;
 
 class DadataClean extends AbstractService
 {

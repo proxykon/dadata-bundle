@@ -61,7 +61,7 @@ class AppKernel extends Kernel
 ### Пример
 
 ```yaml
-velhron_dadata:
+proxykon_dadata:
     token: 'token'
     secret: 'secret'
     # Если у вас инфраструктура состоит из n-сервисов, которые обращаются в dadata, то для контроля запросов в dadata

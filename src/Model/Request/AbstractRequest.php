@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Model\Request;
+namespace Proxykon\DadataBundle\Model\Request;
 
 abstract class AbstractRequest
 {

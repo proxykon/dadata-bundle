@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Model\Request\Clean;
+namespace Proxykon\DadataBundle\Model\Request\Clean;
 
-use Velhron\DadataBundle\Model\Request\AbstractRequest;
+use Proxykon\DadataBundle\Model\Request\AbstractRequest;
 
 abstract class CleanRequest extends AbstractRequest
 {

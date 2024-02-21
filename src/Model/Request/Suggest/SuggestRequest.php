@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Model\Request\Suggest;
+namespace Proxykon\DadataBundle\Model\Request\Suggest;
 
-use Velhron\DadataBundle\Model\Request\AbstractRequest;
+use Proxykon\DadataBundle\Model\Request\AbstractRequest;
 
 abstract class SuggestRequest extends AbstractRequest
 {

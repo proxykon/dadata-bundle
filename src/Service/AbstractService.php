@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Service;
+namespace Proxykon\DadataBundle\Service;
 
 use Symfony\Contracts\HttpClient\HttpClientInterface;
-use Velhron\DadataBundle\Exception\DadataException;
-use Velhron\DadataBundle\Model\Request\AbstractRequest;
-use Velhron\DadataBundle\RequestFactory;
-use Velhron\DadataBundle\ResponseFactory;
+use Proxykon\DadataBundle\Exception\DadataException;
+use Proxykon\DadataBundle\Model\Request\AbstractRequest;
+use Proxykon\DadataBundle\RequestFactory;
+use Proxykon\DadataBundle\ResponseFactory;
 
 abstract class AbstractService
 {

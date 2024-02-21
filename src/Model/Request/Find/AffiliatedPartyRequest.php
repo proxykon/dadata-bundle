@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Velhron\DadataBundle\Model\Request\Find;
+namespace Proxykon\DadataBundle\Model\Request\Find;
 
-use Velhron\DadataBundle\Model\Request\Suggest\SuggestRequest;
+use Proxykon\DadataBundle\Model\Request\Suggest\SuggestRequest;
 
 class AffiliatedPartyRequest extends SuggestRequest
 {
